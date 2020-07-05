@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(230, 99, 99);
+    padding: 13px 14px;
+    font-family: 'Yeon Sung';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 30px;
+    padding-top: 10px;
+}
+#navbar li a:hover{
+    color: black;
+}
+.container{
+    justify-content: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+.container h1{
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    margin: 15px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #9d8e8e;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 7px 16px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background: #d43b3b;
+    cursor: pointer;
+    outline: none;
+    margin: 25px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yeon Sung';
+}
